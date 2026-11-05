@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "decision": "STOP_NARROW_NOVELTY_LEAD",
+  "property": "No native outflow after irreversible recovery from enumerated pre-stop EIP-7702 capabilities",
+  "baseline": "Allowlisted delegate, frozen ordinary signer, one zero-target clear, declare contained from empty code",
+  "baseline_result": "COUNTEREXAMPLE_REPRODUCED",
+  "baseline_post_boundary_debit_test_wei": 1000000,
+  "existing_recovery": "Clear current delegation and consume all known outstanding authorization nonces",
+  "existing_recovery_result": "PASS_UNDER_EXPLICIT_ASSUMPTIONS",
+  "recovery_post_boundary_debit_test_wei": 0,
+  "new_method_needed_for_this_property": false,
+  "novelty_established": false,
+  "direct_prior_art": "https://ethereum-magicians.org/t/eip-7702-set-eoa-account-code/19923/418",
+  "evm_tests": 12,
+  "finite_model_certified_start_states": 127,
+  "production_or_incident_audit": false,
+  "live_chain_transactions": 0,
+  "scope": "One native-currency chain, complete finite authorization inventory, no fresh owner signatures, no other pending owner transactions, assumed irreversible boundary"
+}

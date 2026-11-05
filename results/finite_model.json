@@ -1,0 +1,20 @@
+{
+  "counterexample": {
+    "states": 3,
+    "edges": 9,
+    "counterexample": [
+      "authorization(2)",
+      "session_call"
+    ]
+  },
+  "repair": {
+    "states": 1,
+    "edges": 3,
+    "counterexample": null
+  },
+  "certificate_instances_checked": 127,
+  "reachable_states_for_certified_instances": 127,
+  "transition_checks_for_certified_instances": 448,
+  "domain": "all subsets of authorization nonces 0..5; boundary nonce 0..6; code empty/delegated",
+  "scope": "all finite traces in this finite abstraction, not arbitrary EVM contracts"
+}
